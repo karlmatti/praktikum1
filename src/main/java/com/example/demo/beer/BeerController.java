@@ -24,6 +24,7 @@ public class BeerController {
     private boolean isGreat(Beer beer) {
         return !beer.getName().equals("Budweiser") &&
                 !beer.getName().equals("Coors Light") &&
-                !beer.getName().equals("PBR");
+                !beer.getName().equals("PBR") &&
+                !beer.getName().equals("A. Le. Coq.");
     }
 }
